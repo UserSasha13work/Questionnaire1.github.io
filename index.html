@@ -13,6 +13,23 @@
 <body>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
-    <script src="./scr/script.js"></script>
+    <script>
+        $(document).ready(function() {
+
+let userLang = navigator.language || navigator.userLanguage;
+
+console.log(userLang);
+if(userLang=="ru"){
+    let l=userLang;
+    window.location.href="./ru/index.html";
+   
+    console.log(l);
+}
+else{
+    window.location.href="./en/index.html";
+}
+
+});
+    </script>
 </body>
 </html>
