@@ -1,0 +1,118 @@
+#mainbody {
+    background: #fff;
+}
+
+#contentwrapper {
+    padding-top: 140px;
+}
+
+.questions_box {
+    font-family: Helvetica,Arial,sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 480px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.counter {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: right;
+    color: #763d7f;
+}
+
+.counter span{
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #222;
+}
+.counter .quantity {
+    color: #c4c4c4;
+    font-size: 1em;
+    color: #888;
+    font-weight: 600;
+}
+
+#questions_box .step {
+    display: none;
+}
+
+#result-box {
+    display: none;
+}
+
+#progress {
+    height: 8px;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    border: 1px solid #c4c4c4;
+    background: #fafafa;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#progress span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    max-width: 100% !important;
+    background: #562E5C;
+    -webkit-transition: right 1s ease 0.2s;
+    -moz-transition: right 1s ease 0.2s;
+    -o-transition: right 1s ease 0.2s;
+    transition: right 1s ease 0.2s;
+}
+
+.answer-btn {
+    transition: all ease 0.1s;
+    top: 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+    border-radius: 4px;
+    color: #fff;
+    padding: 16px 36px;
+
+    width: 100%;
+    position: relative;
+    background: #763d7f;
+    border-bottom: 3px solid #692972;
+    margin: 0 8px 16px;
+    text-transform: capitalize;
+    transition: background-color 0.5s ease-out;
+    letter-spacing: .02em;
+}
+
+.answer-btn:hover {
+    top: 1px;
+    color: #FFF;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0);
+    background: #9950a4;
+}
+
+.questions_box img.load {
+    margin-top: 80px;
+    width: 64px;
+    height: auto;
+}
+
+.questions_box h2 {
+    margin: 36px 0 48px;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #292929;
+}
